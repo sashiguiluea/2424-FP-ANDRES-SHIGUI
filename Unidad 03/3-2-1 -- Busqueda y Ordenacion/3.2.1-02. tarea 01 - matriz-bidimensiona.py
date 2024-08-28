@@ -5,7 +5,7 @@ matriz = [
     [8, 3, 5]
 ]
 
-# Valor que estamos buscando
+# Valor que estamos buscando en la matriz
 valor_buscado = 9
 
 # Inicializar variables para rastrear la posición del valor
