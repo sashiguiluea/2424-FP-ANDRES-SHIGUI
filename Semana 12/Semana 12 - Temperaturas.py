@@ -119,6 +119,7 @@ temperaturas = [
     ]
 ]
 
+
 # Calcular y mostrar el promedio de temperaturas para cada ciudad y semana
 for i, ciudad in enumerate(temperaturas, start=1):
     print(f"Promedio de temperaturas para Ciudad {i}:")
