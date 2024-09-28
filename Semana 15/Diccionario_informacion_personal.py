@@ -33,6 +33,8 @@ else:
 del informacion_personal["edad"]
 print("Edad eliminada del diccionario")
 
+print()
 # Imprimir el Diccionario Final
 print("Diccionario final:")
-print(informacion_personal)
+for clave, valor in informacion_personal.items():
+    print(f"{clave.capitalize()}: {valor}")
